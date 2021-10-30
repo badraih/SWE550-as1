@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Show databases in MySQL server</title>
+<title>Show nnnn databases in MySQL server</title>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
@@ -38,10 +38,10 @@ $conn->close();
 ?>
 </div>
 
-<form action="welcome.php" method="post">
-Name: <input type="text" name="name"><br>
-E-mail: <input type="text" name="email"><br>
-<input type="submit">
+<form action="/action_page.php">
+ <label for="rnum">rows number:</label><br>
+ <input type="text" id="rnum" > </input>
+  <button type="submit" value="Submit">
 </form>
 
 </body>
